@@ -1,7 +1,7 @@
 /node_modules
 /vendor
 /public
-/database/database.sqlite
+/database
 .env.backup
 .phpunit.result.cache
 Homestead.json
