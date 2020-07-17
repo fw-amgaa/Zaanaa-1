@@ -33,39 +33,31 @@
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandAdidas">
                                         <label class="custom-control-label" for="brandAdidas">Playground
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                            <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                        <label class="custom-control-label" for="brandNewBalance">New
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                        <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                        <label class="custom-control-label" for="brandAdidas">Maintenance
+                                            <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandNike">
-                                        <label class="custom-control-label" for="brandNike">Lorem
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                        <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                        <label class="custom-control-label" for="brandAdidas">Training
+                                            <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                        <label class="custom-control-label" for="brandFredPerry">Fred Perry
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandTnf">
-                                        <label class="custom-control-label" for="brandTnf">Decorations
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                        <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                        <label class="custom-control-label" for="brandAdidas">New Added
+                                            <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
                                 </div>
@@ -77,7 +69,7 @@
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="brandGucci">
                                             <label class="custom-control-label" for="brandGucci">Outside
-                                                <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                                <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                             </label>
                                         </div>
                                     </div>
@@ -85,7 +77,7 @@
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="brandMango">
                                             <label class="custom-control-label" for="brandMango">Equipments
-                                                <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
+                                                <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                             </label>
                                         </div>
                                     </div>
