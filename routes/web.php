@@ -64,5 +64,5 @@ Route::get('locale/{locale}', function ($locale) {
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
-});
+}); 
 
