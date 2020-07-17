@@ -38,7 +38,6 @@ class AppServiceProvider extends ServiceProvider
       $faa = Product::where('blyat','faa')->take(6)->get(); 
       $maintenance = Product::where('blyat', 'maintenance')->get();
       $hoop = Product::where('blyat', 'hoop')->get();
-      $categories = Category::all();
 
       View::share('featured', $featured );
       View::share('sale', $onSale );
@@ -52,6 +51,5 @@ class AppServiceProvider extends ServiceProvider
       View::share('faa', $faa );
       View::share('maintenance', $maintenance);
       View::share('hoop', $hoop);
-      View::share('categories', $categories);
     }
 }
