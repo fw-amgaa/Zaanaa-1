@@ -29,14 +29,16 @@
                                 <h4 class="font-size-14 mb-3 font-weight-bold">{{__('Categories')}}</h4>
 
                                 <!-- Checkboxes -->
+                                @foreach($categories)
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                        <label class="custom-control-label" for="brandAdidas">Playground
+                                        <label class="custom-control-label" for="brandAdidas">{{$categories->name}}
                                             <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
                                 </div>
+                                @endforeach
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandAdidas">
