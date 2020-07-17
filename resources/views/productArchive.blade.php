@@ -32,7 +32,7 @@
                                 <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                        <label class="custom-control-label" for="brandAdidas">{{$categories->name}}
+                                        <label class="custom-control-label" for="brandAdidas">Playground
                                             <span class="text-gray-25 font-size-12 font-weight-normal"></span>
                                         </label>
                                     </div>
