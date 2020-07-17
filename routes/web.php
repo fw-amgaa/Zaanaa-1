@@ -9,6 +9,7 @@ use App\Product;
 
 	// Home
 	Route::get('/', function () {
+		Artisan::call('storage:link');
 		return view('home');
 	}, )->name('home');
 
