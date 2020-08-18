@@ -1,0 +1,28 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  ## Put production environment variables here.
+  APP_KEY: base64:6hIaxKb67QcF/6O2+wH+UbguY1otj5lkKs0AASpVxzA=
+  APP_DEBUG: true
+  APP_LOG: errorlog
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  LOG_CHANNEL: stackdriver
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_CONNECTION: mysql
+  DB_HOST: gcp-mysql-remote-connection
+  DB_PORT: 3306
+  DB_DATABASE: db
+  DB_USERNAME: root
+  DB_PASSWORD: Maximusprime09!
+  DB_SOCKET: "/cloudsql/zaanaa-ecommerce:asia-east2:zaanaa-database"
+
+beta_settings: 
+    cloud_sql_instances: "zaanaa-ecommerce:asia-east2:zaanaa-database"
+
