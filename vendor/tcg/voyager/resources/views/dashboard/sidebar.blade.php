@@ -32,8 +32,8 @@
         <div id="adminmenu">
             <!-- <admin-menu :items="{{ menu('admin', '_json') }}"></admin-menu> -->
             <ul class="nav navbar-nav">
-                <li class=""><a target="_self" href="http://localhost:8001/admin/products"><span class="icon voyager-bag"></span> <span class="title">Products</span></a> <!----></li>
-                <li class=""><a target="_self" href="http://localhost:8001/admin/categories"><span class="icon voyager-categories"></span> <span class="title">Categories</span></a> <!----></li>
+                <li class=""><a target="_self" href="/admin/products"><span class="icon voyager-bag"></span> <span class="title">Products</span></a> <!----></li>
+                <li class=""><a target="_self" href="/admin/categories"><span class="icon voyager-categories"></span> <span class="title">Categories</span></a> <!----></li>
             </ul>
         </div>
     </nav>
