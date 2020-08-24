@@ -241,7 +241,9 @@
                                                 </div>
                                                 <div class="product-item__body col-6 col-md-5">
                                                     <div class="pr-lg-10">
-                                                        <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">Speakers</a></div> <h5 class="mb-2 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
+                                                        <div class="mb-2"><a href="{{ route('productSingle',$p->id)}}" class="font-size-12 text-gray-5">
+                                                            {{$pcat->sluger}}
+                                                        </a></div> <h5 class="mb-2 product-item__title"><a href="{{ route('productSingle',$p->id)}}" class="text-blue font-weight-bold">{{$p->name}}</a></h5>
                                                         <div class="prodcut-price mb-2 d-md-none">
                                                             <div class="text-gray-100">ER: {{$p->unitPriceER}}¥</div>
                                                             <div class="text-gray-100">UB: {{$p->unitPriceUB}}¥</div>

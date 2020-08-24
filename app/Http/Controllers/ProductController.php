@@ -8,8 +8,12 @@ use App\Product;
 class ProductController extends Controller
 {
     public function all(){
-		  $p = Product::all();
-		return view('productArchive',['p'=>$p]);
+			$p = Product::all();
+			$pcat = Product::join('categories', 'categories.id', '=', 'products.categories_id')->get();
+		return view('productArchive',[
+				'p' => $p,
+				'pcat' => $pcat
+			]);
 	}
 
     public function single($id){
